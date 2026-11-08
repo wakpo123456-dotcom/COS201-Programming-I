@@ -1,42 +1,74 @@
-COS 201 – Programming I
+# COS 201 - Computer Programming I
 
-Week 3 Practical
+## Student Details
+- Name: Ozoh Ayomide 
+- Matriculation Number: 25/17814
+- Programme: Computer science 
+- Course Code: COS 201
 
-Topic
+## Week 1: Introduction to Programming and Problem-Solving
 
-Variables, Data Types, Expressions and Input/Output.
+### Practical Exercise
+Created and executed my first Java programme.
 
-Objectives
+### File
+- `week01/FirstProgram.java`
 
-- Understand variables and data types in Java.
-- Perform arithmetic operations.
-- Accept user input using Scanner.
-- Display calculated results.
+### Skills Practised
+- Java class and main method
+- Output statements
+- Compilation and execution
+- GitHub version control
 
-Programs
+## Week 2: Development Environment and First Java Program
 
-1. SimpleCalculator.java – Performs addition, subtraction, multiplication and division of two numbers.
-2. AverageCalculator.java – Accepts a student's name and three scores, then calculates the total and average.
-3. ItemCost.java – Accepts an item name, quantity and unit price, then calculates the total cost.
+### Objective
+To configure the Java development environment, write a simple Java program, compile it, execute it and submit the source code through GitHub.
 
-How to Compile and Run
+### Tools Used
+- Java Development Kit (JDK)
+- Visual Studio Code
+- Git
+- GitHub Desktop
+- GitHub
 
-Open the terminal and enter:
+### Files
+- `week02/HelloWorld.java`: Personalised Hello World program.
+- `week02/PrintVersusPrintln.java` shows `print()`, `println()` and escape sequences.
+- `week02/CommonErrors.java`: lists common compile errors and the messages they produce.
 
-cd week03
-javac SimpleCalculator.java
-java SimpleCalculator
+### How to Run
+1. Open a terminal in the `week02` directory.
+2. Compile the program using `javac HelloWorld.java`.
+3. Run the program using `java HelloWorld`.
 
-To run the second program:
+### Learning Outcome
+I practised creating, compiling and running a Java program and submitting source code through GitHub.
 
-javac AverageCalculator.java
-java AverageCalculator
+## Week 3: Variables, Data Types, Expressions and Input/Output
 
-To run the third program:
+### Objectives
+- Declare and initialize Java variables.
+- Use appropriate primitive and reference data types.
+- Perform arithmetic calculations.
+- Read keyboard input using Scanner.
+- Display formatted output.
+- Compile, test and submit Java programs using GitHub.
 
-javac ItemCost.java
-java ItemCost
+### Programs
+1. `week03/SimpleCalculator.java`
+   - Performs arithmetic calculations on two numbers.
+2. `week03/AverageCalculator.java`
+   - Calculates the total and average of three scores (with 0-100 validation).
+3. `week03/RunningTotal.java`
+   - A loop that handles many items and keeps a running total.
 
-Testing
+### How to Run
+Open a terminal in the `week03` directory.
 
-Each program accepts input from the user and displays the appropriate calculated result.
+- `javac SimpleCalculator.java` then `java SimpleCalculator`
+- `javac AverageCalculator.java` then `java AverageCalculator`
+- `javac RunningTotal` then `java RunningTotal`
+
+### Testing
+Each program was tested with different valid inputs and the results matched the expected calculations.
